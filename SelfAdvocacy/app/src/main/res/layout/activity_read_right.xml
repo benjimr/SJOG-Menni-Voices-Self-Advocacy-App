@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ben.selfadvocacy.ReadRight">
+
+    <com.ben.selfadvocacy.EnhancedTextView
+        android:id="@+id/Rights_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Right_Heading"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Short description of the human rights"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif"
+        app:textAllCaps="false" />
+
+    <com.ben.selfadvocacy.EnhancedTextView
+        android:id="@+id/Right_Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Heading"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps"
+        app:textAllCaps="true" />
+</RelativeLayout>

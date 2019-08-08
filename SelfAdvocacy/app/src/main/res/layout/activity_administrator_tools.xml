@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background">
+
+    <com.ben.selfadvocacy.EnhancedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/administrator_tools"
+        android:textSize="36sp"
+        android:padding = "20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <com.ben.selfadvocacy.EnhancedImageButton
+        android:id="@+id/createEvent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/create_event"
+        android:tag="Create Event"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        />
+
+    <com.ben.selfadvocacy.EnhancedImageButton
+        android:id="@+id/manageUsers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/manage_users"
+        android:tag="Manage Users"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

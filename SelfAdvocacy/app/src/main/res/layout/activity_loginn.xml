@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.ben.selfadvocacy.EnhancedTextView
+        android:id="@+id/loginText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <com.ben.selfadvocacy.EnhancedTextView
+        android:id="@+id/passwordText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:hint="Enter Password" />
+
+    <GridLayout
+        android:id="@+id/passwordGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/padOne"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="1"
+            app:srcCompat="@drawable/one" />
+
+        <ImageButton
+            android:id="@+id/padTwo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="padClicked"
+            android:scaleType="fitCenter"
+            android:tag="2"
+            app:srcCompat="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/padThree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="3"
+            app:srcCompat="@drawable/three" />
+
+        <ImageButton
+            android:id="@+id/padFour"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="4"
+            app:srcCompat="@drawable/four" />
+
+        <ImageButton
+            android:id="@+id/padFive"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="5"
+            app:srcCompat="@drawable/five" />
+
+        <ImageButton
+            android:id="@+id/padSix"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="6"
+            app:srcCompat="@drawable/six" />
+
+        <ImageButton
+            android:id="@+id/padSeven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="7"
+            app:srcCompat="@drawable/seven" />
+
+        <ImageButton
+            android:id="@+id/padEight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="8"
+            app:srcCompat="@drawable/eight" />
+
+        <ImageButton
+            android:id="@+id/padNine"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:tag="9"
+            app:srcCompat="@drawable/nine" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/nameField"
+            android:layout_toRightOf="@+id/nameField"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/padZero2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/nameField"
+            android:layout_toRightOf="@+id/nameField"
+            android:scaleType="fitCenter"
+            android:tag="0"
+            app:srcCompat="@drawable/zero" />
+
+        <ImageButton
+            android:id="@+id/padZero"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/nameField"
+            android:layout_toRightOf="@+id/nameField"
+            android:scaleType="fitCenter"
+            android:tag="0"
+            app:srcCompat="@drawable/left_arrow" />
+
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vimeo.networking:vimeo-networking:1.1.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vimeo.networking/vimeo-networking/1.1.0/80c1bad97db2c2bd5742124c01750156211cb97/vimeo-networking-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vimeo.networking/vimeo-networking/1.1.0/cc114dc23ab4d11ff1728029fb00e65c336cb6ea/vimeo-networking-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/usernameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usernamee"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fullnameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameLayout">
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fullnamee"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passwordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullnameLayout">
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passwordd"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/levelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordLayout">
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/statuss"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <com.ben.selfadvocacy.EnhancedTextView
+            android:id="@+id/level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <com.ben.selfadvocacy.EnhancedButton
+        android:id="@+id/editUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/levelLayout"
+        android:text="@string/manage"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark"/>
+</RelativeLayout>

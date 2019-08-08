@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">Menni Voices</string>
+    <string name="title_activity_administrator_tools">AdministratorTools</string>
+    <string name="firstname">First name</string>
+    <string name="surname">Last name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordAgain">Password again</string>
+
+    <string name="email">Email Address</string>
+
+    <string name="register">Register</string>
+    <string name="back">Back</string>
+    <string name="title_activity_human_rights_list">HumanRightsList</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="full_name">Full Name</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_again">New Password Again</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_my_password">Change my Password</string>
+    <string name="backButton">TODO</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="logintext">LoginText</string>
+    <string name="passSuccess">passChangeSuccessful</string>
+    <string name="ok">OK</string>
+    <string name="password_changed_succesfully">Password changed succesfully</string>
+    <string name="fill_fields">Fill in all fields please</string>
+    <string name="passNo_match">Passwords do not match</string>
+    <string name="oldPass_wrong">Old password is wrong</string>
+    <string name="usernamee">Username:</string>
+    <string name="fullnamee">Fullname:</string>
+    <string name="passwordd">Password:</string>
+    <string name="statuss">Status:</string>
+    <string name="manage">Manage</string>
+    <string name="administrator_tools">Administrator Tools</string>
+</resources>

@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.ben.selfadvocacy">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+   <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginStepOne">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenu" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".Register" />
+        <activity android:name=".AdministratorTools" />
+        <activity android:name=".CreateEvent" />
+        <activity android:name=".Events" />
+        <activity android:name=".HumanRightsList" />
+        <activity android:name=".P" />
+        <activity android:name=".Profile" />
+        <activity android:name=".DisplayVideo" />
+        <activity android:name=".ManageUsers" />
+        <activity android:name=".ReadRight" />
+        <activity android:name=".VideoList"/>
+    </application>
+</manifest>
