@@ -1,4 +1,3 @@
-# SJOG Menni Voices Self Advocacy App
 In a team of four, we worked with St. John of God, closely collaborating with people with learning disabilities in order to develop an Android application to help them be more independent. It involved weekly sessions engaging with the clients at every stage. We received a certification for our work, presented by the Minister for Higher Education, Mary Mitchell O’Connor.
 
 The app allows the users to view their rights and responsibilities, their videos they make at their meetings and events such as their meetings. Adminstrators have the ability to control events and manage user accounts. 
